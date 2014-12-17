@@ -1,0 +1,19 @@
+{
+  "name": "character-range",
+  "version": "0.1.0",
+  "description": "",
+  "main": "character-range.es",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/not-naught/character-range.git"
+  },
+  "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/not-naught/character-range/issues"
+  },
+  "homepage": "https://github.com/not-naught/character-range"
+}
