@@ -5,7 +5,7 @@
   "authors": [
     "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>"
   ],
-  "main": "character-range.es",
+  "main": "character-range.es6",
   "moduleType": [
     "es6"
   ],
