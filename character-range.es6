@@ -6,12 +6,12 @@ export default function characterRange(a, b) {
         throw new TypeError("characterRange accepts only strings of length 1");
     }
 
-    const aCode = a.charCodeAt(0),
-        bCode = b.charCodeAt(0),
+    const aCodePoint = a.codePointAt(0),
+        bCodePoint = b.codePointAt(0),
         range = [];
 
-    for(var code = aCode; code <= bCode; ++code) {
-        range.push(String.fromCharCode(code));
+    for(var codePoint = aCodePoint; codePoint <= bCodePoint; ++codePoint) {
+        range.push(String.fromCodePoint(codePoint));
     }
 
     return range;
