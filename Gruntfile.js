@@ -24,6 +24,24 @@ module.exports = function (grunt) {
             "main": "character-range",
             "global": "characterRange"
         },
+        "watch": {
+            "js": {
+                "files": [
+                    "<%= config.main %>.js"
+                ],
+                "tasks": ["jshint"]
+            }
+        },
+        "jshint": {
+            "options": {
+                "jshintrc": ".jshintrc",
+                "reporter": require("jshint-stylish")
+            },
+            "all": [
+                "Gruntfile.js",
+                "<%= config.main %>.js"
+            ]
+        },
         "babel": {
             "options": {
                 "sourceMap": true
@@ -67,6 +85,8 @@ module.exports = function (grunt) {
             }
         }
     });
+
+    grunt.task.registerTask("test", ["jshint:all"]);
 
     grunt.task.registerTask("build:es6", ["uglify:dist"]);
     grunt.task.registerTask("build:cjs", ["babel:dist", "uglify:distCjs"]);
