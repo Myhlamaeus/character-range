@@ -2,7 +2,7 @@
   "name": "character-range",
   "version": "0.2.1",
   "description": "",
-  "main": "character-range.es6",
+  "main": "character-range.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
