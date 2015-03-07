@@ -5,7 +5,7 @@
   "main": "dist/cjs.js",
   "scripts": {
     "test": "grunt test",
-    "prepublish": "build:cjs"
+    "prepublish": "grunt build:cjs"
   },
   "repository": {
     "type": "git",
