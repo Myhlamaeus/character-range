@@ -15,4 +15,4 @@ export default function characterRange(a, b) {
     }
 
     return range;
-};
+}
