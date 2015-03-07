@@ -10,7 +10,7 @@ export default function characterRange(a, b) {
         bCodePoint = b.codePointAt(0),
         range = [];
 
-    for(var codePoint = aCodePoint; codePoint <= bCodePoint; ++codePoint) {
+    for(let codePoint = aCodePoint; codePoint <= bCodePoint; ++codePoint) {
         range.push(String.fromCodePoint(codePoint));
     }
 
