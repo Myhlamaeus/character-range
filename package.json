@@ -12,7 +12,7 @@
     "gulp-sourcemaps": "^1.5.2"
   },
   "homepage": "https://github.com/not-naught/character-range",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "main": "dist/character-range.js",
   "repository": {
     "type": "git",
