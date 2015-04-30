@@ -5,4 +5,5 @@ Install
 --------------
 ```
 $ npm install --save character-range
+$ bower install --save character-range
 ```
